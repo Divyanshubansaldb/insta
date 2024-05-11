@@ -1,0 +1,14 @@
+
+schema :- 
+1. id of the post
+2. user id
+3. content of the post
+4. like count ++ 
+5. dislike count
+6. like accounts (array of user ids)
+
+
+table:
+users, post they have liked, like or dislike (0, 1) 
+u1, p1, 0
+u1, p2, 1
